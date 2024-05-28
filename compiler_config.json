@@ -1,0 +1,20 @@
+
+{
+	"language": "Solidity",
+	"settings": {
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"metadata": {
+			"useLiteralContent": true,
+			"bytecodeHash": "ipfs"
+		},
+		"outputSelection": {
+			"*": {
+				"": ["ast", "legacyAST"],
+				"*": ["abi", "metadata", "evm.bytecode", "evm.deployedBytecode", "storageLayout", "evm.methodIdentifiers", "evm.gasEstimates", "evm.assembly", "evm.legacyAssembly", "devdoc", "userdoc"]
+			}
+		}
+	}
+}
